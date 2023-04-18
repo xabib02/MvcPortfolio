@@ -1,0 +1,134 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.centr{
+  text-align: center;
+}
+
+
+/*  */
+
+
+
+.bir{
+  width: 70px;
+  border-radius: 50px;
+}
+.main-header{
+position: fixed;
+background-color: gray;
+border-radius: 38px;
+margin-left: 10%;
+opacity: 0,5;
+text-align: center;
+}
+.main-nav{
+display: inline-block;
+vertical-align: middle;
+}
+.main-nav__item{
+  display: inline-block;
+  padding: 10px;
+}
+.logo{
+  display: inline-block;
+  vertical-align: middle;
+}
+.main-nav__item a{
+  color: rgb(69, 9, 75);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-family: agence fb;
+  font-weight: 500px;
+}
+.main-nav__item a:hover{
+  color: royalblue;
+}
+.main-nav__item.page-1 a{
+  color: royalblue;
+}
+.main-nav__item a:hover{
+  color: royalblue;
+}
+.uch{
+  background-color: royalblue;
+  
+}
+body{
+  /* font-family: agence fb;
+  width: 1700px; */
+  background-image:linear-gradient(90deg,grey, #000 ) ;
+}
+.container{
+  width: 1700px;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+/* *{
+  background-color: rgb(71, 77, 94);
+} */
+.tuqiz{
+  width: 250px;
+  border-radius: 50%;
+  float: right;
+  margin-right: 100px;
+  /* filter: brightness(0.4);
+  filter: contrast(1); */
+  /* filter: invert(50%); */
+}
+.rasm{
+  width: 50px;
+  float: left;
+  font-size: 30px;
+  margin-left: 400px;
+  color: royalblue;
+}
+.pustoy{
+  clear: both;
+}
+.xabib{
+  margin-top: 40px;
+}
+.ur-line{
+  margin: 20px;
+  display: inline-block;
+  margin-left: 5px;
+  min-width: 1700px;
+  height: 10px;
+  background-color: brown;
+  filter: blur(2px);
+  border-radius: 4px;
+}
+.tttppp{
+  display: inline-block;
+  width: 500px;
+
+}
+.video{
+  width: 500px;
+}
+.ttpp{
+  display: inline;
+  float: right;
+  margin-right: 500PX;
+}
