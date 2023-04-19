@@ -132,3 +132,9 @@ body{
   float: right;
   margin-right: 500PX;
 }
+tr{
+  color: green;
+}
+td{
+  color: green;
+}

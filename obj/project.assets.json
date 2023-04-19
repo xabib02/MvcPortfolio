@@ -1072,11 +1072,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\New Folder\\MyPortfolio1\\MvcMyPortfolio\\MvcMyPortfolio.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\MvcPortfolio\\MvcMyPortfolio.csproj",
       "projectName": "MvcMyPortfolio",
-      "projectPath": "F:\\New Folder\\MyPortfolio1\\MvcMyPortfolio\\MvcMyPortfolio.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\MvcPortfolio\\MvcMyPortfolio.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "F:\\New Folder\\MyPortfolio1\\MvcMyPortfolio\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\MvcPortfolio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

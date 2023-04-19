@@ -1,0 +1,26 @@
+  @model List<User>
+<table>
+<thead>
+     
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>PhoneNumber</th>
+      <th>Password</th>
+    </tr>
+    </thead>
+    @foreach (var odam in Model)
+    {
+       <tbody> 
+   <tr>
+      <th>@odam.Id</th>
+      <td>@odam.Name</td>
+      <td>@odam.PhoneNumber</td>
+      <td>@odam.Password</td>
+    </tr>
+  </tbody>  
+    }
+   </table>
