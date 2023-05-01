@@ -6,21 +6,28 @@
 <table class="table">
   <thead>
     <tr>
+       <a href="#">    
       <th>Id</th>
       <th>Name</th>
       <th>PhoneNumber</th>
       <th>Password</th>
+      </a>
     </tr>
     </thead>
     @foreach (var odam in Model)
+   
     {
+       <a href="#">
        <tbody> 
-   <tr>
+   <tr> 
       <th>@odam.Id</th>
       <td>@odam.Name</td>
       <td>@odam.PhoneNumber</td>
       <td>@odam.Password</td>
     </tr>
   </tbody>  
+    </a>
     }
    </table>
+
+   @* hamanarsani ani ichiga olish kerak *@
