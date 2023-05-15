@@ -1,0 +1,36 @@
+ @model List<Movie>
+<table>
+<thead>
+     
+
+<table class="table">
+  <thead>
+    <tr>  
+      <th>Id</th>
+      <th>Name</th>
+      <th>Year</th>
+      <th>Country</th>
+         <a href="#">
+          info
+        </a>
+      </th>
+       
+      </a>
+    </tr>
+    </thead>
+    @foreach (var movie in Model)
+   
+    {
+    <tbody> 
+   <tr> 
+      <th>@movie.Id</th>
+      <td>@movie.Name</td>
+      <td>@movie.Year</td>
+      <td>@movie.Country</td>
+      
+      <td><a asp-controller="Movie" asp-action="Store" asp-route-Id="@movie.Id">kirish</a> </td>
+      <td><a asp-controller="Movie" asp-action="Delete" asp-route-Id="@movie.Id">delete</a> </td>
+    </tr>
+  </tbody>  
+    }
+   </table>

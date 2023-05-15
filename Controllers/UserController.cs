@@ -14,30 +14,34 @@ public class UserController : Controller
             User Shuxrat = new User()
         {
             Id = 1,
-            Name = "Shuxrat",
+            name = "Shuxrat",
             PhoneNumber = 30,
             Password = 657456,
+            Link = "https://ru.wikipedia.org/wiki/Шухрат"
         };
          User Botir = new User()
         {
             Id = 2,
-            Name = "Botir",
+            name = "Botir",
             PhoneNumber = 20,
             Password = 53653765,
+            Link = "https://uz.wikipedia.org/wiki/Botir_Qodirov"
         };
           User Xabib = new User()
         {
             Id = 3,
-            Name = "Xabib",
+            name = "Xabib",
             PhoneNumber = 16,
             Password = 345654,
+            Link = "https://uz.wikipedia.org/wiki/Xabib_Nurmagomedov"
         };
           User Ramzidin = new User()
         {
             Id = 4,
-            Name = "Ramzidin",
+            name = "Ramzidin",
             PhoneNumber = 1554653,
             Password = 34654,
+            Link = "https://uz.wikipedia.org/wiki/Ramziddin_Saidov"
         };
         
         List<User> users = new List<User>();

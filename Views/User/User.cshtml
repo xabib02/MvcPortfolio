@@ -1,4 +1,4 @@
-  @model List<User>
+  @* @model List<User>
 <table>
 <thead>
      
@@ -8,9 +8,15 @@
     <tr>
        <a href="#">    
       <th>Id</th>
-      <th>Name</th>
+      <th>name</th>
       <th>PhoneNumber</th>
       <th>Password</th>
+      <th>
+         <a href="#">
+          info
+        </a>
+      </th>
+       
       </a>
     </tr>
     </thead>
@@ -24,10 +30,13 @@
       <td>@odam.Name</td>
       <td>@odam.PhoneNumber</td>
       <td>@odam.Password</td>
+      <td>
+        <a href="@odam.Link">
+          <button class="btn btn-info">kirish</button>
+        </a>
+      </td>
     </tr>
   </tbody>  
     </a>
     }
-   </table>
-
-   @* hamanarsani ani ichiga olish kerak *@
+   </table> *@
