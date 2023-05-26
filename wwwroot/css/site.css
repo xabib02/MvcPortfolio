@@ -34,7 +34,7 @@ body {
   border-radius: 50px;
 }
 .main-header{
-position: fixed;
+/* position: fixed; */
 background-color: gray;
 border-radius: 38px;
 margin-right: 20px;
@@ -172,7 +172,7 @@ body {
 
 .search-1 input:focus {
   border-color: none;
-  box-shadow: none;
+  box-shadow: 0 0 2em #e6e9f9;
   outline: none
 }
 
@@ -185,8 +185,8 @@ body {
 }
 
 ::placeholder {
-  color: #eee;
-  opacity: 1
+  color: #000;
+  opacity: 4
 }
 
 .search-2 {
@@ -204,7 +204,7 @@ body {
 
 .search-2 input:focus {
   border-color: none;
-  box-shadow: none;
+  box-shadow: 0 0 2em #e6e9f9;
   outline: none
 }
 
@@ -246,3 +246,9 @@ body {
       height: 37px;
       top: 5px
   }
+.abz{
+  margin-left: 290px;
+}
+.but{
+  text-align: center;
+}

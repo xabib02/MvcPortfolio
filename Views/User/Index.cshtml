@@ -1,0 +1,38 @@
+ @model List<User>
+<table>
+<thead>
+     
+
+<table class="table">
+  <thead>
+    <tr>  
+      <th>Id</th>
+      <th>FirstName</th>
+      <th>LastName</th>
+      <th>Password</th>
+      <th>Mail</th>
+         <a href="#">
+          info
+        </a>
+      </th>
+       
+      </a>
+    </tr>
+    </thead>
+    @foreach (var user in Model)
+   
+    {
+    <tbody> 
+   <tr> 
+      <th>@user.Id</th>
+      <th>@user.FirstName</th>
+      <td>@user.LastName</td>
+      <td>@user.Password</td>
+      <td>@user.Mail</td>
+      
+      <td><a asp-controller="User" asp-action="Store" asp-route-Id="@user.Id">edit</a> </td>
+      <td><a asp-controller="User" asp-action="Delete" asp-route-Id="@user.Id">delete</a> </td>
+    </tr>
+  </tbody>  
+    }
+   </table>

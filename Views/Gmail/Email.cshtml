@@ -1,13 +1,21 @@
+@* @{
+    Gmail_Layout.cshtml = "Gmail_Layout.cshtml";
+} *@
+
 <head>
 <style>
 .screen-1 {
-  background: #f1f7fe;
+ 
   padding: 2em;
   display: flex;
   flex-direction: column;
   border-radius: 30px;
-  @* box-shadow: 0 0 2em #e6e9f9; *@
   gap: 2em;
+  background: #f1f7fe;
+}
+
+.screen-1:hover{
+  box-shadow: 0 0 2em #e6e9f9;
 }
 .screen-1 .logo {
   margin-top: -3em;
@@ -120,7 +128,5 @@ button {
       <ion-icon class="show-hide" name="eye-outline"></ion-icon>
     </div>
   </div>
-  <a href="index.html">
-  <button class="login">Logins</button>
-<!-- partial --> 
+  <a href="Views/Gmail/Register"><button class="login">Logins</button></a>
 </body>

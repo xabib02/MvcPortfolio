@@ -1,0 +1,69 @@
+  @model User
+  
+    <div class="container">
+
+<legend><center><h2><b>Registration Form</b></h2></center></legend><br>
+
+<form asp-action="Store" asp-controller="User" method="post">
+<div class="form-group">
+  <label class="col-md-4 control-label">FirstName</label>  
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input  name="FirstName" placeholder="FirstName" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+
+<div class="form-group">
+  <label class="col-md-4 control-label" >LastName</label> 
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input name="LastName" placeholder="LastName" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+  
+
+<div class="form-group">
+  <label class="col-md-4 control-label" >Password</label> 
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input name="Password" placeholder="Password" class="form-control"  type="Password">
+    </div>
+  </div>
+</div>
+
+
+@* <div class="form-group">
+  <label class="col-md-4 control-label" >Confirm Password</label> 
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input name="confirm_password" placeholder="Confirm Password" class="form-control"  type="password">
+    </div>
+  </div>
+</div> *@
+
+       <div class="form-group">
+  <label for="Mail" class="col-md-4 control-label">Mail</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+  <input name="Mail" placeholder="Mail" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label"></label>
+  <div class="col-md-4"><br>
+<a href="Views/Gmail/Email"><button class="btn btn-warning" type="submit">SUBMIT <span class="glyphicon glyphicon-send"></span></button></a>
+  </div>
+</div>
+</form>
+</div>
+    </div>

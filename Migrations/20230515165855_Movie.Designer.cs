@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MvcMyPortfolio.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230512154957_Movie")]
+    [Migration("20230515165855_Movie")]
     partial class Movie
     {
         /// <inheritdoc />
@@ -32,6 +32,7 @@ namespace MvcMyPortfolio.Migrations
                         .HasColumnType("longtext");
 
                     b.Property<string>("Name")
+                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.Property<int>("Year")
@@ -52,14 +53,14 @@ namespace MvcMyPortfolio.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<string>("Name")
-                        .HasColumnType("longtext");
-
                     b.Property<int>("Password")
                         .HasColumnType("int");
 
                     b.Property<int>("PhoneNumber")
                         .HasColumnType("int");
+
+                    b.Property<string>("name")
+                        .HasColumnType("longtext");
 
                     b.HasKey("Id");
 
