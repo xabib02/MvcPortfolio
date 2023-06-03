@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\MvcPortfolio\\MvcMyPortfolio.csproj": {}
+    "F:\\New Folder\\MvcPortfolio\\MvcMyPortfolio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\MvcPortfolio\\MvcMyPortfolio.csproj": {
+    "F:\\New Folder\\MvcPortfolio\\MvcMyPortfolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\MvcPortfolio\\MvcMyPortfolio.csproj",
+        "projectUniqueName": "F:\\New Folder\\MvcPortfolio\\MvcMyPortfolio.csproj",
         "projectName": "MvcMyPortfolio",
-        "projectPath": "C:\\Users\\User\\Desktop\\MvcPortfolio\\MvcMyPortfolio.csproj",
+        "projectPath": "F:\\New Folder\\MvcPortfolio\\MvcMyPortfolio.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\MvcPortfolio\\obj\\",
+        "outputPath": "F:\\New Folder\\MvcPortfolio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

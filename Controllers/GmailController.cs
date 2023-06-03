@@ -14,10 +14,6 @@ public class GmailController : Controller
         this.dbContext = dataContext;
     }
 
-    public IActionResult Email()
-    {
-        return View();
-    }
 
     public IActionResult Register()
     {
@@ -48,4 +44,35 @@ public class GmailController : Controller
         HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), properties);
         return RedirectToAction("Index", "User");
     }
+
+    [HttpGet]
+        public IActionResult Email()
+    {
+        return View();
+    }
+   [HttpPost]
+   public IActionResult SendMail (User odam)
+   {
+    var user = dbContext.Users.FirstOrDefault(t => t.Mail == odam.Mail && t.Password == odam.Password);
+   
+    List<Claim> claims = new List<Claim>()
+    {
+        new Claim(ClaimTypes.Email, user.Mail),
+        new Claim("FirstName", user.FirstName),
+        new Claim("OtherProperties", "Example Role")
+    };
+            
+            ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+
+        AuthenticationProperties properties = new AuthenticationProperties()
+        { 
+            AllowRefresh = true,
+            IsPersistent = true
+        };
+        HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), properties);
+        
+       return RedirectToAction("Index", "User");
+
+   }
+
 }
