@@ -1,0 +1,36 @@
+@model User;
+
+@{
+  ViewData["Title"] = "добавить кино";
+}
+
+
+<form asp-action="Store" asp-controller="User">
+ <div class="row">
+   <div class="col-6">
+  <div class="input-group mb-3">
+ 
+  <input type="text" name="name" class="form-control" placeholder="name" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+</div>
+   <div class="col-6">
+  <div class="input-group mb-3">
+ 
+  <input type="email" name="Mail" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+</div>
+
+<div class="col-6">
+   <div class="input-group mb-3">
+  <input type="number" name="PhoneNumber" class="form-control" placeholder="number" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+</div>
+  <div class="form-text" id="basic-addon4"></div>
+</div>
+
+
+<div class="but"> 
+  <button type="submit" class="btn btn-success">kirish</button>
+</div>
+
+</form>

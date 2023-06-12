@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 // authentication
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(option =>
 {
-    option.LoginPath = "/Auth/Login";
+    option.LoginPath = "/Gmail/Email";
     option.ExpireTimeSpan = TimeSpan.FromMinutes(15);
 });
 

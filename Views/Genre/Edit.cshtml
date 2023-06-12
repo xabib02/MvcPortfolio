@@ -1,0 +1,13 @@
+@model Genre;
+
+<form asp-action="Update" asp-controller="Genre" asp-route-id="@Model.Id" method="post">
+ 
+<div class="input-group mb-3">
+ 
+<input type="text" name="Name" class="form-control" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1" value="@Model.Name">
+</div>
+<div class="but"> 
+  <button type="submit" class="btn btn-success">kirish</button>
+</div>
+
+</form>

@@ -5,11 +5,11 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace MyPortfolio1.Controllers;
 
-public class GmailController : Controller
+public class AuthController : Controller
 {
     private readonly DataContext dbContext;
 
-    public GmailController(DataContext dataContext)
+    public AuthController(DataContext dataContext)
     {
         this.dbContext = dataContext;
     }
@@ -23,7 +23,6 @@ public class GmailController : Controller
     [HttpPost]
     public IActionResult SendRegister(User odam)
     {
-        odam.Link = "fbvcb";
         odam.name = "davcvxc";
         dbContext.Users.Add(odam);
         dbContext.SaveChanges();
@@ -73,6 +72,11 @@ public class GmailController : Controller
         
        return RedirectToAction("Index", "User");
 
+   }
+   public IActionResult Logout()
+   {
+    HttpContext.SignOutAsync();
+    return RedirectToAction("Index", "Home");
    }
 
 }

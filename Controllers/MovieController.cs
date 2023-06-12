@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MvcMyPortfolio1.Controllers;
 
@@ -23,7 +24,7 @@ private readonly DataContext dbContext;
     } 
 
      
-
+//   [Authorize]
   public IActionResult Create()
     {  
         return View();
@@ -36,6 +37,30 @@ private readonly DataContext dbContext;
         dbContext.SaveChanges();
         return RedirectToAction("Index");
     }
+
+    [HttpGet]
+    [Route("[controller]/[action]/{id}")]
+     public IActionResult Edit(int Id)
+     {
+        var kino = dbContext.Movies.Find(Id);
+        return View(kino);
+     }
+
+    
+    [HttpPost]
+     public IActionResult Update(int id, Movie newMovie)
+    {
+        var oldMovie = dbContext.Movies.Find(id);
+
+        oldMovie.Name = newMovie.Name;
+        oldMovie.Country = newMovie.Country;
+        oldMovie.Year = newMovie.Year;
+
+        dbContext.SaveChanges();
+        
+        return RedirectToAction("Index");
+    }
+
     [HttpGet]
     [Route("[controller]/[action]/{id}")]
     public IActionResult Delete(int id)

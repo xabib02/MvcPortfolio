@@ -1,0 +1,31 @@
+ @model List<Genre>
+<table>
+<thead>
+     
+
+<table class="table">
+  <thead>
+    <tr>  
+      <th>Id</th>
+      <th>Janr</th>
+         <a href="#">
+          info
+        </a>
+      </th>
+       
+      </a>
+    </tr>
+    </thead>
+    @foreach (var kino in Model)
+    {
+    <tbody> 
+   <tr> 
+      <th>@kino.Id</th>
+      <td>@kino.Name</td>
+      
+      <td><a asp-controller="Genre" asp-action="Edit" asp-route-Id="@kino.Id">edit</a> </td>
+      <td><a asp-controller="Genre" asp-action="Delete" asp-route-Id="@kino.Id">delete</a> </td>
+    </tr>
+  </tbody>  
+    }
+   </table>
