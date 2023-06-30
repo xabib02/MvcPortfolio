@@ -23,7 +23,6 @@ public class AuthController : Controller
     [HttpPost]
     public IActionResult SendRegister(User odam)
     {
-        odam.name = "davcvxc";
         dbContext.Users.Add(odam);
         dbContext.SaveChanges();
         
@@ -45,7 +44,7 @@ public class AuthController : Controller
     }
 
     [HttpGet]
-        public IActionResult Email()
+    public IActionResult Email()
     {
         return View();
     }
@@ -53,7 +52,11 @@ public class AuthController : Controller
    public IActionResult SendMail (User odam)
    {
     var user = dbContext.Users.FirstOrDefault(t => t.Mail == odam.Mail && t.Password == odam.Password);
-   
+    if(user == null)
+    {
+        return RedirectToAction("Email");
+    }
+
     List<Claim> claims = new List<Claim>()
     {
         new Claim(ClaimTypes.Email, user.Mail),

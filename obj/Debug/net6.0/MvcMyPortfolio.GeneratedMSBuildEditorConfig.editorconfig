@@ -9,101 +9,101 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MvcMyPortfolio
 build_property.RootNamespace = MvcMyPortfolio
-build_property.ProjectDir = F:\New Folder\MvcPortfolio\
+build_property.ProjectDir = f:\New Folder\MvcPortfolio\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = F:\New Folder\MvcPortfolio
+build_property.MSBuildProjectDirectory = f:\New Folder\MvcPortfolio
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/New Folder/MvcPortfolio/Views/Actor/Create.cshtml]
+[f:/New Folder/MvcPortfolio/Views/Actor/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/New Folder/MvcPortfolio/Views/Actor/Edit.cshtml]
+[f:/New Folder/MvcPortfolio/Views/Actor/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/New Folder/MvcPortfolio/Views/Actor/Index.cshtml]
+[f:/New Folder/MvcPortfolio/Views/Actor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/New Folder/MvcPortfolio/Views/Auth/Email.cshtml]
+[f:/New Folder/MvcPortfolio/Views/Auth/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxFbWFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/New Folder/MvcPortfolio/Views/Auth/Register.cshtml]
+[f:/New Folder/MvcPortfolio/Views/Auth/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/New Folder/MvcPortfolio/Views/Genre/Create.cshtml]
+[f:/New Folder/MvcPortfolio/Views/Genre/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/New Folder/MvcPortfolio/Views/Genre/Edit.cshtml]
+[f:/New Folder/MvcPortfolio/Views/Genre/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/New Folder/MvcPortfolio/Views/Genre/Index.cshtml]
+[f:/New Folder/MvcPortfolio/Views/Genre/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/New Folder/MvcPortfolio/Views/Home/Index.cshtml]
+[f:/New Folder/MvcPortfolio/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/New Folder/MvcPortfolio/Views/Home/Privacy.cshtml]
+[f:/New Folder/MvcPortfolio/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/New Folder/MvcPortfolio/Views/Movie/Create.cshtml]
+[f:/New Folder/MvcPortfolio/Views/Movie/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/New Folder/MvcPortfolio/Views/Movie/Edit.cshtml]
+[f:/New Folder/MvcPortfolio/Views/Movie/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/New Folder/MvcPortfolio/Views/Movie/Index.cshtml]
+[f:/New Folder/MvcPortfolio/Views/Movie/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/New Folder/MvcPortfolio/Views/Shared/Error.cshtml]
+[f:/New Folder/MvcPortfolio/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/New Folder/MvcPortfolio/Views/Shared/Gmail_Layout.cshtml]
+[f:/New Folder/MvcPortfolio/Views/Shared/Gmail_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEdtYWlsX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/New Folder/MvcPortfolio/Views/Shared/_ValidationScriptsPartial.cshtml]
+[f:/New Folder/MvcPortfolio/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/New Folder/MvcPortfolio/Views/User/Create.cshtml]
+[f:/New Folder/MvcPortfolio/Views/User/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/New Folder/MvcPortfolio/Views/User/Edit.cshtml]
+[f:/New Folder/MvcPortfolio/Views/User/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/New Folder/MvcPortfolio/Views/User/Index.cshtml]
+[f:/New Folder/MvcPortfolio/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/New Folder/MvcPortfolio/Views/User/Kinopoisk.cshtml]
+[f:/New Folder/MvcPortfolio/Views/User/Kinopoisk.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxLaW5vcG9pc2suY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/New Folder/MvcPortfolio/Views/_ViewImports.cshtml]
+[f:/New Folder/MvcPortfolio/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/New Folder/MvcPortfolio/Views/_ViewStart.cshtml]
+[f:/New Folder/MvcPortfolio/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/New Folder/MvcPortfolio/Views/Shared/_Layout.cshtml]
+[f:/New Folder/MvcPortfolio/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-17w9weufns

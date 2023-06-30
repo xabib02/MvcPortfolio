@@ -1,31 +1,49 @@
 @model User;
 
 @{
-  ViewData["Title"] = "добавить кино";
+  ViewData["Title"] = "добавить человека";
 }
 
 
-<form asp-action="Store" asp-controller="User">
- <div class="row">
-   <div class="col-6">
-  <div class="input-group mb-3">
- 
+<form asp-action="Store" asp-controller="User" method="post">
+
+<div class="col-6">
+ <div class="input-group mb-3">
   <input type="text" name="name" class="form-control" placeholder="name" aria-label="Username" aria-describedby="basic-addon1">
+ </div>
 </div>
-</div>
-   <div class="col-6">
-  <div class="input-group mb-3">
- 
+
+<div class="col-6">
+ <div class="input-group mb-3">
   <input type="email" name="Mail" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
-</div>
+ </div>
 </div>
 
 <div class="col-6">
    <div class="input-group mb-3">
-  <input type="number" name="PhoneNumber" class="form-control" placeholder="number" aria-label="Username" aria-describedby="basic-addon1">
+      <input type="number" name="PhoneNumber" class="form-control" placeholder="number" aria-label="Username" aria-describedby="basic-addon1">
+  </div>
 </div>
+  
+  @* <div class="form-text" id="basic-addon4"></div> *@
+
+<div class="col-6">
+   <div class="input-group mb-3">
+      <input type="number" name="Password" class="form-control" placeholder="Password" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
 </div>
-  <div class="form-text" id="basic-addon4"></div>
+
+<div class="col-6">
+   <div class="input-group mb-3">
+      <input type="text" name="FirstName" class="form-control" placeholder="FirstName" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+</div>
+ 
+
+<div class="col-6">
+   <div class="input-group mb-3">
+    <input type="text" name="LastName" class="form-control" placeholder="LastName" aria-label="Username" aria-describedby="basic-addon1">
+  </div>
 </div>
 
 

@@ -36,11 +36,6 @@ public class UserController : Controller
     [HttpPost]
     public IActionResult Store(User odam)
     {
-        odam.Password = "5";
-        
-        odam.Mail = "3";
-        odam.LastName = "2";
-        odam.FirstName = "1";
         dbContext.Users.Add(odam);
         dbContext.SaveChanges();
         return RedirectToAction("Index");
