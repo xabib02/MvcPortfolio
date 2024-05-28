@@ -15,7 +15,7 @@ builder.Services.AddControllersWithViews();
 // database connection
 string mySqlConnectionStr = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContextPool<DataContext>(options => options.UseMySql(mySqlConnectionStr,
-    ServerVersion.AutoDetect(mySqlConnectionStr)));
+ServerVersion.AutoDetect(mySqlConnectionStr)));
 var app = builder.Build();
 
 
